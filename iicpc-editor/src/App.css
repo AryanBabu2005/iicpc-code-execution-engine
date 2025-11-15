@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+/* We removed 'text-align: center;' from here 
+  to fix the editor layout.
+*/
+.App {
+}
+
+.App-header {
+  padding: 10px;
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+  text-align: center; /* Centering the header text */
+}
+
+/* Centering the language dropdown */
+.controls {
+  margin-bottom: 15px;
+  margin-top: 15px; /* Added a little space on top */
+  text-align: center;
+}
+
+.controls label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.controls select {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.editor-container {
+  margin: 20px;
+  border: 1px solid #333;
+  text-align: left; /* This is crucial for monaco */
+}
+
+/* This new class centers the button */
+.button-container {
+  text-align: center;
+}
+
+.run-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.run-button:hover {
+  background-color: #0056b3;
+}
+
+.run-button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.output-container {
+  margin: 0 20px;
+  padding: 10px;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-align: left;
+  min-height: 100px; /* Gave it a minimum height */
+}
+
+.output-container pre {
+  color: #ccc;
+  white-space: pre-wrap; /* Wraps output */
+  word-wrap: break-word; /* Breaks long output lines */
+}
