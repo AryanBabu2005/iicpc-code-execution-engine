@@ -23,8 +23,8 @@ You must have Node.js and Docker Desktop installed and running.
 1. Prerequisites (Run Once)
 
 Clone the Repository:
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/AryanBabu2005/iicpc-code-execution-engine.git)
+cd iicpc-code-execution-engine
 
 Start the Redis Database:
 
